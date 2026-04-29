@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://s7pvi4lynmeh"]
+
+[ext_resource type="Texture2D" uid="uid://vpwdi4sdg2la" path="res://istockphoto-829309362-612x612.jpg" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://bwf1kd11i53wk" path="res://pngtree-space-shuttle-png-image_5640589.jpg" id="2_h2yge"]
+[ext_resource type="Texture2D" uid="uid://bclsffka4ubll" path="res://alien .jpg" id="3_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://c7hbcjr8k4sqg" path="res://alien_instance.tscn" id="4_lquwl"]
+
+[node name="Main" type="Node2D" unique_id=508232595]
+position = Vector2(461, 311)
+
+[node name="Space Background" type="Sprite2D" parent="." unique_id=1098811126]
+position = Vector2(496.53473, 240.01384)
+scale = Vector2(3.1191673, 2.454281)
+texture = ExtResource("1_0xm2m")
+
+[node name="Spaceship" type="Sprite2D" parent="." unique_id=1974997931]
+position = Vector2(332.37506, -83.37499)
+scale = Vector2(0.25104168, 0.25104168)
+texture = ExtResource("2_h2yge")
+
+[node name="alien" type="Sprite2D" parent="." unique_id=254471302]
+position = Vector2(1132.0001, 486)
+scale = Vector2(0.38907957, 0.38907957)
+texture = ExtResource("3_1bvp3")
+
+[node name="Alien Instance" parent="." unique_id=1927267529 instance=ExtResource("4_lquwl")]
+position = Vector2(514, 186)
+
+[node name="Alien Instance2" parent="." unique_id=652886949 instance=ExtResource("4_lquwl")]
+position = Vector2(10, 195)

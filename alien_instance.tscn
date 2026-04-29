@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c7hbcjr8k4sqg"]
+
+[ext_resource type="Texture2D" uid="uid://bclsffka4ubll" path="res://alien .jpg" id="1_xixsx"]
+
+[node name="Alien Instance" type="Node2D" unique_id=1927267529]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=796941544]
+position = Vector2(-274, 376.5096)
+scale = Vector2(0.38461536, 0.38461542)
+texture = ExtResource("1_xixsx")
